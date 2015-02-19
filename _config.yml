@@ -30,7 +30,7 @@ footer-links:
   stackoverflow: http://stackoverflow.com/users/3607247/bmlsoftware
 
 # Your disqus shortname, entering this will enable commenting on posts
-disqus: 
+disqus: bmcloughlin.github.io
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: 
