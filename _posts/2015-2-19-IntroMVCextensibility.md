@@ -7,9 +7,19 @@ We have all looked at those large data flow diagrams that try to depict the life
 
 This processing pipeline can be decomposed into four sections which are:
 
-  1. Route identification
-  2. Controller Instantiation
-  3. Action Execution
-  4. Result or View Execution 
+###Route identification
 
+*HTTP requests to IIS are intercepted by the HTTP module URLRoutingModule which traverses the routing table attempting to match the requested url with a route. Once a route has been located the IRouteHandler class associated with this route is used to provide the  URLRoutingModule with an IHttpHandler which will be used to handle the request.*
+
+**Extensiblity**  
+- *IRouteConstraint* : Allows developers to extend the standard route matching mechanism
+- *IRouteHandler* : By default routes will use the MvcRouteHandler implementation but developers can use this interface to implement a custom handler which essentially will take the matched request out of the Mvc pipeline.
+
+
+###Controller Instantiation
+..
+###Action Execution
+..
+###Result or View Execution 
+..
 
