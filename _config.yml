@@ -18,16 +18,16 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: 
+  email: bmlsoftware@outlook.com
   facebook: 
   flickr: 
-  github: barryclark/jekyll-now
+  github: bmcloughlin
   instagram: 
-  linkedin: 
+  linkedin: ie.linkedin.com/in/bmcloughlin/en
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  twitter: bmmcloughlin
+  stackoverflow: http://stackoverflow.com/users/3607247/bmlsoftware
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
