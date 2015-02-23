@@ -36,22 +36,26 @@ This processing pipeline can be decomposed into seven steps which are:
 
 ###Access Verification
 
+*The next step in the pipeline is to authenticate and to authorise the caller to insure they can execute the chosen action.  Authentication is done using an implementation of IAuthenticationFilter.  If the request is authenticated sucessfully the pipeline will authorise the request using any IAuthorisationFilter objects that are configured. Authorize is a well known implementation of the IAuthorisationFilter interface.  Both IAuthenticationFilter and IAuthorisationFilter objects are known as "Action Filters" and are discovered via the IFilterProvider*
 
-
-
-
+**Extensiblity**  
+*IAuthorisationFilter* : Allows developers to create custom authorisation filters
+*IAuthenticationFilter* : Allows developers to create custom authentication filters
+*IFilterProvider": Allows developers to introduce new mechanisms for discovering filters including IoC.
 
 
 ###Model Binding
 
-*Once the method is identified and it has parameters, these parameters must be populated which is done via the model binder (IModelBinder) and during this process validation of each parameter is performed, this validation can be extended using the ModelValidatorProvider.  Validation can be further extended the model binding process by implementing IValidatableObject in the object being bound.*
-
-###Action Execution
+*Once the method is identified and access verified if it has parameters, these parameters must be populated which is done via the model binder (IModelBinder) and during this process validation of each parameter is performed, this validation can be extended using the ModelValidatorProvider.  Validation can be further extended the model binding process by implementing IValidatableObject in the object being bound.*
 
 **Extensiblity**  
 *IModelBinder* :
 *ModelValidatorProvider* :
 *IValidatableObject* :
+
+###Action Execution
+
+
 
 ###Result or View Execution 
 ..
