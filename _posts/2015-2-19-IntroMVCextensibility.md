@@ -53,8 +53,14 @@ This processing pipeline can be decomposed into seven steps which are:
 *ModelValidatorProvider* :
 *IValidatableObject* :
 
+
 ###Action Execution
 
+*If no Action Filters (IActionFilter) prevent  the pipeline from proceeding the parameters are now populated with the values from the Model Binding Step and the action is then executed.  Also there maybe other filters that are applied  before the response is returned. Filters that execute after the action itself are IActionFilter and IResultFilter*
+
+**Extensiblity**  
+*IActionFilter* :
+*IResultFilter* :
 
 
 ###Result or View Execution 
