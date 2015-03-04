@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Brendan McLoughlin.  I am developer based in Ireland focussed predominately on the Microsoft Technology Stack. 
+
+For more info on me please visit [linkedin](http://ie.linkedin.com/in/bmlsoftware) 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+I build software, I run and I read.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[bmlsoftware@outlook.com](mailto:bmlsoftware@outlook.com)
