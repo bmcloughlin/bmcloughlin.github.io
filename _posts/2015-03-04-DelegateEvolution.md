@@ -1,4 +1,7 @@
-###Evolution of the C# Delegate
+---
+layout: post
+title:Evolution of the C# Delegate
+---
 
 After some recent technical conversations I was prompted to create some notes on delegates and how they have changed through the evolution of the C# language.
 
